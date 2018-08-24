@@ -19,7 +19,8 @@ public class ConsumeServiceImpl implements ConsumeService {
     @Override
     public String talk(String task) {
 
-
+        System.out.println("task = " + task);
         return demoService.sayHello(task);
+        System.out.println("task = " + task);
     }
 }
