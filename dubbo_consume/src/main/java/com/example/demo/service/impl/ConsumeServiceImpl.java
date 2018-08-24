@@ -22,11 +22,7 @@ public class ConsumeServiceImpl implements ConsumeService {
         System.out.println("task = " + task);
         demoService.sayHello(task);
         System.out.println("task = " + task);
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        System.out.println("jzx02");
 
 
         return "";
