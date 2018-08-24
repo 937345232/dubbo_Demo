@@ -20,7 +20,8 @@ public class ConsumeServiceImpl implements ConsumeService {
     public String talk(String task) {
 
         System.out.println("task = " + task);
-        return demoService.sayHello(task);
+        demoService.sayHello(task);
         System.out.println("task = " + task);
+        return "";
     }
 }
